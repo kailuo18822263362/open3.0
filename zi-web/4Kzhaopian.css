@@ -1,0 +1,133 @@
+.sousuokuang {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(205, 205, 205);
+    float: left;
+    border-radius: 20px;
+}
+
+.sousuo1 {
+    width: 30%;
+    height: 60px;
+    background-color: rgb(225, 224, 224);
+    margin: 10px;
+    float: left;
+    border-radius: 20px;
+}
+
+.sousuo2 {
+    margin: 10px;
+    width: 60%;
+    float: right;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.input1 {
+    width: 60%;
+    margin: 10px 0px 10px 10px;
+    height: 35px;
+    padding-left: 20px;
+    background: none;
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 15px;
+    float: left;
+}
+
+
+.button1{
+    background-color:#5abdf6;
+    color:white;
+    width: 28%;
+    height: 40px;
+    border:0;
+    font-size: 16px;			
+    border-radius: 10px;
+    float: right;
+    margin: 10px 10px 10px 0px;
+}
+
+.button1:hover{
+    background-color: #a54b4a;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+}
+  
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+  
+li:last-child {
+  border-right: none;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  
+.active {
+  background-color: #4CAF50;
+}
+
+
+.leibie {
+  width: 10%;
+  height: 700px;
+  background-color: #333;
+  float: left;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+/* 子网页 */
+#container1 {
+  width: 88%;
+  height: 650px;
+  float: left;
+  margin-top: 10px;
+  border-radius: 30px;
+  /* background-color: aliceblue;
+  opacity: 0.2;
+  border-radius: 30px; */
+}

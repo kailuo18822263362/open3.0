@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaifazhipingtai</title>
+    <link rel="stylesheet" href="pingmianshiji.css"/>
+</head>
+
+
+
+
+<body>
+  
+  <div class="card">
+    <h2>KAIFAZHI PINGTAI</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+
+    <div class="tongzhi">
+      <div class="tongzhi-zi">
+        <h1>
+          <span class="text" ></span>
+        </h1>         
+      </div>
+    </div>
+
+  </div>
+
+
+  </div>  
+
+
+
+  <div class="pingmianshiji">
+    <a id="pingmianshiji"></a>
+  
+    <div class="pingmianshiji1" >
+        <!-- <h3 class="pingmianshiji1-h3">平面设计&nbsp;:</h3> -->
+    </div>
+    
+    <div class="pingmianshiji2">
+
+      <div class="pingmianshiji2-zi">
+          <p>&nbsp;素材库&nbsp;:<br><br>
+            &nbsp;ps/ai专题&nbsp;:<br><br>
+            &nbsp;设计&nbsp;:<br><br>
+            &nbsp;其它&nbsp;:<br><br>
+            &nbsp;二维模板：<br><br>
+          </p>
+      </div>
+
+      <div class="pingmianshiji-webkuangjia">
+        <div class="pingmianshiji3">
+          <input  type="button" class="pingmianshiji-web" value="4K照片" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="ui库" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="Ai库" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="图标下载" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+
+          <input  type="button" class="pingmianshiji-web" value="元素" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+        </div>
+
+        <div class="pingmianshiji3">
+          <input  type="button" class="pingmianshiji-web" value="ps/ai 下载" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="ps 插件" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="ps 高级教程" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="ps 共享文件夹" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          
+        </div>
+
+        <div class="pingmianshiji3">
+          <input  type="button" class="pingmianshiji-web" value="工具箱" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="设计规范" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="社区" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+        </div>
+
+        <div class="pingmianshiji3">
+          <input  type="button" class="pingmianshiji-web" value="在线工具" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="字体下载" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="笔刷纹理" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="插画涂鸦" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="创意灵感" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+        </div>
+
+        <div class="pingmianshiji3">
+          <input  type="button" class="pingmianshiji-web" value="模型贴图" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+          <input  type="button" class="pingmianshiji-web" value="样机模板" onclick="window.location.href='https://blog.csdn.net/wmn7q/article/details/60573697'"/>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <div class="pingmianshiji-yingwenzi">
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+
+</body>
+
+
+<script>
+    const text = document.querySelector('.text');
+    const txt  =["Hello world!","夜越黑，星星越亮。","答案在风中飘荡。"]; 
+    
+    var index=0;
+    var xiaBiao= 0;
+    var huan = true;
+ 
+    setInterval(function(){
+       
+        if(huan){      
+            text.innerHTML = txt[xiaBiao].slice(0,++index);
+            console.log(index);
+        }
+        else{
+            text.innerHTML = txt[xiaBiao].slice(0,index--);
+            console.log(index);
+        }
+
+        if(index==txt[xiaBiao].length+3)
+        {
+            huan = false;
+        }
+        else if(index<0)
+        {
+            index = 0;
+            huan = true;
+            xiaBiao++;
+            if(xiaBiao>=txt.length)
+            {
+                xiaBiao=0; 
+            }
+        }
+
+    },200)
+
+</script>
+
+</html>

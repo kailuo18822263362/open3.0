@@ -1,0 +1,223 @@
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+
+.tongzhi-zi {
+  width: 100%;
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+
+
+.text{
+  margin: 30px 0px 0px 0px;
+  font-family: 'fangsong';
+  display: inline-block;
+  position: relative;
+  font-size: 60px;
+  line-height: 60px;
+  color: rgb(41, 41, 41);
+
+}
+
+
+.text::after{
+  position: absolute;
+  right: -10px;
+  top: 5px;
+  height: 50px;
+  width: 3px;     
+  background-color: rgb(232, 222, 222);
+  animation: san 0.5s steps(1) infinite;
+}
+
+@keyframes san{
+  0%,100%{
+    background-color: rgb(0, 0, 0);
+  }
+  50%{
+    background-color: transparent;
+  }
+}
+
+
+.tongzhi {
+  width: 100%;
+  height: 100px;
+  float:left;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 页眉/Blog 标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* 设置上导航栏的样式 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* 设置 topnav 链接的样式 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* 改变鼠标悬停时的颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 创建两个不相等的彼此并排的浮动列 */
+/* 左列 */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* 右列 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* 伪图像 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* 为文章添加卡片效果 */
+
+/* 清除列之后的浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 页脚 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/* 平面设计功能栏 */
+.pingmianshiji {
+width: 80%;
+height: 300px;
+margin: 10px 0px 0px 0px;
+border-radius: 10px;
+border: 1px solid rgb(136, 136, 136);
+float: left;
+}
+
+.pingmianshiji1 {
+width: 25%;
+height: 300px;
+background: url('/img/3d.jpg');
+border-radius: 10px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+float: left;
+
+}
+
+
+
+.pingmianshiji2 {
+width: 90%;
+height: 300px;
+background-color: rgb(255, 255, 255);
+margin-left: 300px;
+float: left;
+text-align: left;
+border-radius: 10px;
+}
+
+.pingmianshiji2-zi {
+width: 9%;
+height: 270px;
+font-size: 15px;
+font-weight: 900;
+background-color: rgb(255, 255, 255);
+float: left;
+}
+
+
+.pingmianshiji-yingwenzi {
+width: 100%;
+height: 200px;
+background-color: rgb(232, 229, 229);
+float: left;
+margin-top: 10px;
+
+}
+
+.pingmianshiji-webkuangjia{
+width: 80%;
+height: 300px;
+/* background-color: #333; */
+float: left;
+}
+
+.pingmianshiji3 {
+width: 100%;
+height: 40px;
+/* background-color: aqua; */
+margin-bottom: 10px;
+
+}
+
+
+.pingmianshiji-web{
+border-radius: 5px;
+padding: 5px 15px;
+margin: 4px 0px 0px 0px;
+
+border-top: 0px  solid rgb(139, 139, 139);	
+border-right: 0px  solid rgb(139, 139, 139);	
+border-bottom: 1px  solid rgb(0, 0, 0);	
+border-left: 1px  solid rgb(12, 12, 12);	
+
+font-weight: 500;
+
+}

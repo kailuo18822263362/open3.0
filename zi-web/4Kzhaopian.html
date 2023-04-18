@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4k照片</title>
+
+    <link rel="stylesheet" href="4Kzhaopian.css"/>
+</head>
+
+
+
+
+
+
+<body>
+    <div class="sousuokuang">
+
+        <div class="sousuo1">
+            <form>
+                <input type="text" class="input1" id="shuru1" >
+            </form>
+            <button class="button1" onclick="Fun()">搜索</button>
+            <script>
+                function Fun(){
+                    var z = document.getElementById("shuru1").value;
+                    var map = "https://cn.bing.com/search?q="+ z ;
+                    window.open(map);
+                }
+            </script>
+        </div>
+
+        <div class="sousuo2">
+            <ul>
+                <li><a class="active" href="#home">4k壁纸</a></li>
+                <li><a href="#news">水果</a></li>
+                <li><a href="#contact">食品</a></li>
+                <li><a href="#contact">昆虫</a></li>
+                <li style="float:right"><a href="#about">关于</a></li>
+              </ul>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="leibie">
+    </div>
+
+
+
+    <div>
+        <div>
+            <iframe src="https://cn.bing.com/images/search?q=战斗机" id="container1"></iframe>
+        </div>
+    </div>
+
+
+</body>
+</html>
